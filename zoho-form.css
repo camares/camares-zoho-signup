@@ -3,5 +3,13 @@
 body {
     background-color: #FAE6E3 !important; /* soft tint of Camarès Red #D42E12 */
 }
-
+/* Zoho One logo — constrain size and center */
+.login-box img,
+.login-box svg {
+    display: block;
+    width: 140px !important;
+    max-width: 100%;
+    height: auto !important;
+    margin: 0 auto 10px;
+}
 /* Copied from Zoho's NewSignUp stylesheet (.login-box, line 97) */
