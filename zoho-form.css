@@ -1,3 +1,18 @@
+/* Camarès signup page overrides */
+
 body {
-    background-color: yellow !important;
+    background-color: #FAE6E3 !important; /* soft tint of Camarès Red #D42E12 */
+}
+
+/* Copied from Zoho's NewSignUp stylesheet (.login-box, line 97) */
+.login-box {
+    margin: 70px auto 0;
+    background-color: #f3f3f3;
+    min-width: 576px;
+    max-width: 576px;
+    padding: 35px 25px;
+    border: 2px solid #fff;
+    opacity: 0.88;
+    box-shadow: 0 6px 3px rgba(0, 0, 0, 0.13);
+    padding-bottom: 0px;
 }
